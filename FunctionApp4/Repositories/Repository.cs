@@ -1,7 +1,6 @@
 ﻿using System.Threading.Tasks;
 using Azure.Storage.Blobs;
 using FunctionApp4.Configurations;
-using Microsoft.Extensions.Configuration;
 using Microsoft.Extensions.Options;
 
 namespace FunctionApp4.Repositories;

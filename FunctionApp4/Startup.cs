@@ -46,7 +46,7 @@ public class Startup : FunctionsStartup
         //     });
 
         // OK
-        builder.Services.Configure<BlobStorageOptions>(context.Configuration.GetSection("BlobStorage"));
+        builder.Services.Configure<BlobStorageOptions>(context.Configuration.GetSection(BlobStorageOptions.SectionName));
 
         builder.Services.AddAzureClients(azureClientFactoryBuilder =>
         {
