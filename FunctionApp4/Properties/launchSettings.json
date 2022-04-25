@@ -1,0 +1,16 @@
+{
+  "profiles": {
+    "FunctionApp4-Debug": {
+      "commandName": "Project",
+      "environmentVariables": {
+        "AZURE_FUNCTIONS_ENVIRONMENT": "Debug"
+      }
+    },
+    "FunctionApp4-Development": {
+      "commandName": "Project",
+      "environmentVariables": {
+        "AZURE_FUNCTIONS_ENVIRONMENT": "Development"
+      }
+    }
+  }
+}
