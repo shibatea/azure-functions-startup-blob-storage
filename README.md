@@ -1,5 +1,5 @@
 # azure-functions-startup-blob-storage
-Azure Functions のローカルデバッグで Storage Blob を利用するサンプル
+Azure Functions のローカルデバッグで Storage Blob を利用するサンプル（Managed ID 使用）
 
 ## テンプレートから実装した機能
 
