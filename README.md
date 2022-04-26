@@ -37,7 +37,7 @@ Azure Functions のローカルデバッグで Storage Blob を利用するサ�
 3. choco install mkcert
 4. mkcert install
 5. mkcert 127.0.0.1
-6. choco nodejs.install install -y
+6. choco install nodejs.install -y
 7. npm install -g azurite
 8. azurite --oauth basic --cert 127.0.0.1.pem --key 127.0.0.1-key.pem
 
